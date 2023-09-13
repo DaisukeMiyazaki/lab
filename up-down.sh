@@ -5,7 +5,7 @@ if [ -z "$DCPS" ]; then
     echo "Launch..."
     docker-compose build
     # xdg-open http://localhost:8888
-    open http://localhost:8888
+    open http://localhost:10000
     docker-compose up
 else
     echo "Shutdown..."
